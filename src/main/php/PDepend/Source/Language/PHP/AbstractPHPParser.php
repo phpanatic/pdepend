@@ -3008,7 +3008,6 @@ abstract class AbstractPHPParser
                 case 1007:
                     return null;
                 default:
-                    var_dump($tokenType);
                     $expressions[] = $this->parseOptionalExpressionForVersion();
                     break;
             }
